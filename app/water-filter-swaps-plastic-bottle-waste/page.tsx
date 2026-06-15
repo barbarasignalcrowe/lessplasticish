@@ -126,8 +126,8 @@ export default function WaterGuidePage() {
         {productRules.map((rule) => <li key={rule}>{rule}</li>)}
       </ul>
 
-      <h2>Product lanes we are evaluating</h2>
-      <p>These are not final recommendations yet. They are the first affiliate/product lanes worth checking because they fit the LessPlasticish water path better than low-ticket one-off swaps.</p>
+      <h2>Brands and product lanes to compare next</h2>
+      <p>These are research candidates, not final recommendations yet. They fit the LessPlasticish water path better than low-ticket one-off swaps, but each one still needs product-claim, filter-cost, and return-policy review before it earns a recommendation.</p>
       <div className="cards" style={{gridTemplateColumns: '1fr'}}>
         {affiliateShortlist.map(([brand, note]) => (
           <article className="card" key={brand}>
