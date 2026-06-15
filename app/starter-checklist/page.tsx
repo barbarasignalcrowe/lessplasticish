@@ -25,7 +25,7 @@ export default function ChecklistPage() {
             <h1>The LessPlasticish Starter Checklist</h1>
             <p className="lede">7 easy swaps to reduce everyday plastic exposure without replacing your whole life.</p>
             <div className="actions">
-              <a className="button" href="mailto:?subject=LessPlasticish Starter Checklist&body=The checklist PDF is being designed. For now, start here: https://lessplasticish.com/start-here-after-the-plastic-detox">Email me a reminder</a>
+              <a className="button" href="/files/lessplasticish-starter-checklist-v1.pdf" download>Download the checklist</a>
               <a className="button ghost" href="/start-here-after-the-plastic-detox">Read the start-here guide</a>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function ChecklistPage() {
           <div>
             <p className="eyebrow">Inside the checklist</p>
             <h2>Start with the swaps that repeat most.</h2>
-            <p className="body-large">This will become the opt-in PDF. For V1, the page is drafted and ready for email capture once the provider is selected.</p>
+            <p className="body-large">The branded PDF is ready. Download it now, then use the start-here guide when you want the fuller explanation.</p>
           </div>
           <ul className="checklist">
             {swaps.map((swap) => <li key={swap}>{swap}</li>)}
