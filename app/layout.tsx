@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://lessplasticish-next.vercel.app';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://lessplasticish.com'),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'LessPlasticish — Less Plastic, Less Panic',
     template: '%s | LessPlasticish'
