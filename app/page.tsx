@@ -28,7 +28,7 @@ export default function Home() {
       <section className="section-tight">
         <div className="container narrow">
           <p className="eyebrow">Start calmly</p>
-          <h2>Plastic is everywhere. Your next step does not have to be.</h2>
+          <h2>Plastic is everywhere. Start with one simple swap.</h2>
           <p className="body-large">After documentaries, headlines, and microplastic studies, it is easy to feel like every bottle, container, and takeout lid is suddenly a problem. The better move is to start where daily contact repeats most: water, food storage, reheating, and kitchen tools.</p>
         </div>
       </section>
