@@ -4,12 +4,12 @@ Practical low-plastic swaps for real homes.
 
 ## Core pages
 
-- Home: https://lessplasticish-next.vercel.app/
-- Start Here After The Plastic Detox: https://lessplasticish-next.vercel.app/start-here-after-the-plastic-detox
-- Water Filter Swaps: https://lessplasticish-next.vercel.app/water-filter-swaps-plastic-bottle-waste
-- Starter Checklist: https://lessplasticish-next.vercel.app/starter-checklist
-- About: https://lessplasticish-next.vercel.app/about
-- Affiliate & Health Disclosure: https://lessplasticish-next.vercel.app/disclosure
+- Home: https://lessplasticish.vercel.app/
+- Start Here After The Plastic Detox: https://lessplasticish.vercel.app/start-here-after-the-plastic-detox
+- Water Filter Swaps: https://lessplasticish.vercel.app/water-filter-swaps-plastic-bottle-waste
+- Starter Checklist: https://lessplasticish.vercel.app/starter-checklist
+- About: https://lessplasticish.vercel.app/about
+- Affiliate & Health Disclosure: https://lessplasticish.vercel.app/disclosure
 
 ## Brand positioning
 
