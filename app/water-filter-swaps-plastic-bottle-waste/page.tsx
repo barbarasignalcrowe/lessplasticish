@@ -67,12 +67,31 @@ const firstPicks = [
   ['If you want a bathroom add-on', 'A shower filter can be a reasonable second-step swap, but keep expectations practical and avoid medical claims.'],
 ];
 
+const amazonWaterPicks = [
+  {
+    title: 'Glass water filter pitcher',
+    href: 'https://amzn.to/4vWW7yn',
+    fit: 'A lower-effort starter option for renters, small kitchens, and households that want filtered water without installation.',
+    check: 'Confirm the filter claim, replacement schedule, and what the pitcher is actually tested or certified to reduce before buying.',
+  },
+  {
+    title: 'Countertop gravity water filter',
+    href: 'https://amzn.to/4fQS81y',
+    fit: 'A stronger bottled-water reduction option for households that want more capacity without under-sink plumbing.',
+    check: 'Check counter space, filter replacement cost, published testing, and whether the system fits your household’s daily water volume.',
+  },
+  {
+    title: 'Under-sink water filter',
+    href: 'https://amzn.to/3Qknl2L',
+    fit: 'A cleaner-counter setup for long-term renters or homeowners who want filtered water from the tap.',
+    check: 'Check installation requirements, faucet compatibility, replacement filters, return policy, and published performance data.',
+  },
+];
+
 const affiliateShortlist = [
-  ['Aquasana', 'Broad fit: countertop, under-sink, shower, and whole-house options. Strong candidate for first comparison cards after terms and product claims are verified.'],
-  ['Epic Water Filters', 'Good everyday-water fit for pitchers, dispensers, and bottles. Strong candidate for beginner-friendly swaps.'],
-  ['Water & Wellness / AquaTru-style countertop RO', 'Good higher-ticket countertop lane if terms, claims, and product fit check out.'],
-  ['SpringWell / Home Master', 'Better for later whole-home or under-sink/RO content after the beginner page earns trust.'],
-  ['Waterdrop / Clearly Filtered / LifeStraw', 'Worth evaluating for supporting recommendations, replacement filters, and portable/travel use cases.'],
+  ['Direct-brand programs', 'Aquasana, Epic Water Filters, Clearly Filtered, Waterdrop, SpringWell, Home Master, and LifeStraw are better evaluated after LessPlasticish has more traffic and social proof. Amazon starter links let the guide monetize while we build that proof.'],
+  ['Higher-ticket filters', 'Countertop RO, under-sink RO, and whole-home systems need deeper comparison pages before we recommend them directly.'],
+  ['Portable and travel filters', 'Good supporting category later, especially for travel bottles, emergency kits, and rental-friendly routines.'],
 ];
 
 const faqs = [
@@ -88,7 +107,7 @@ export default function WaterGuidePage() {
       <p className="eyebrow">Water guide</p>
       <h1>Best Water Filter Swaps for Reducing Plastic Bottle Waste at Home</h1>
       <p className="lede">Want to cut down on plastic water bottles without panic-buying a complicated system? Start with a water setup your household will actually use.</p>
-      <div className="disclosure">Some links on this page may be affiliate links. If you buy through them, LessPlasticish may earn a commission at no extra cost to you. This page is educational and is not medical advice.</div>
+      <div className="disclosure">As an Amazon Associate, LessPlasticish earns from qualifying purchases. Some links on this page are affiliate links, which means we may earn a commission if you buy through them at no extra cost to you. This page is educational and is not medical advice.</div>
 
       <p>If plastic bottles are one of the easiest plastic habits to spot in your home, your water setup is one of the best places to start. The goal is not to buy the fanciest filter. The goal is to make better water the easiest default.</p>
       <div className="callout">Quick take: if you buy bottled water every week, start with a countertop or under-sink filter. If you rent or need the simplest first move, start with a pitcher or dispenser. Whole-home systems can wait until you know your actual water goals.</div>
@@ -120,8 +139,21 @@ export default function WaterGuidePage() {
         ))}
       </div>
 
-      <h2>What LessPlasticish will require before recommending products</h2>
-      <p>This page is being built as a buyer guide first, not a random top-10 list. Specific product links should only be added after terms, claims, replacement filter costs, and return policies are checked.</p>
+      <h2>Starter filter options to compare</h2>
+      <p>These are Amazon affiliate links, so treat them as starting points for comparison — not medical recommendations and not a replacement for checking your local water report.</p>
+      <div className="cards" style={{gridTemplateColumns: '1fr'}}>
+        {amazonWaterPicks.map((pick) => (
+          <article className="card" key={pick.title}>
+            <h3>{pick.title}</h3>
+            <p><strong>Fit:</strong> {pick.fit}</p>
+            <p><strong>Check first:</strong> {pick.check}</p>
+            <a href={pick.href} rel="sponsored nofollow noopener noreferrer" target="_blank">View on Amazon →</a>
+          </article>
+        ))}
+      </div>
+
+      <h2>What LessPlasticish checks before stronger recommendations</h2>
+      <p>This page is a buyer guide first, not a random top-10 list. Before a product earns stronger language, its claims, replacement filter costs, installation requirements, and return policy need to be checked.</p>
       <ul>
         {productRules.map((rule) => <li key={rule}>{rule}</li>)}
       </ul>

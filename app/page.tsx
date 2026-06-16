@@ -9,7 +9,7 @@ export default function Home() {
             <p className="lede">Practical low-plastic swaps for your home — starting with water, food storage, and the everyday routines that matter most.</p>
             <div className="actions">
               <a className="button" href="/starter-checklist">Get the starter checklist</a>
-              <a className="button ghost" href="/start-here-after-the-plastic-detox">Start here after The Plastic Detox</a>
+              <a className="button ghost" href="/starter-swap-list">See starter swaps</a>
             </div>
             <div className="trust-strip" aria-label="Trust notes">
               <span className="pill">No perfectionism</span>
@@ -54,7 +54,7 @@ export default function Home() {
               <p className="num">03 / Kitchen tools</p>
               <h3>Replace worn plastic where it gets daily use.</h3>
               <p>Cutting boards, utensils, lunch containers, and food storage are better first targets than decorative low-use items.</p>
-              <a href="/starter-checklist">Get the checklist →</a>
+              <a href="/starter-swap-list">See starter swaps →</a>
             </article>
           </div>
         </div>
@@ -75,6 +75,7 @@ export default function Home() {
               <li>a calm 7-day starter plan</li>
             </ul>
             <a className="button" href="/starter-checklist">Send me the checklist</a>
+            <div className="actions"><a className="button ghost" href="/starter-swap-list">See the starter swap list</a></div>
           </div>
         </div>
       </section>

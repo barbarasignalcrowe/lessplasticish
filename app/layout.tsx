@@ -38,6 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </a>
           <nav aria-label="Main navigation">
             <a href="/start-here-after-the-plastic-detox">Start Here</a>
+            <a href="/starter-swap-list">Starter Swaps</a>
             <a href="/water-filter-swaps-plastic-bottle-waste">Water Guide</a>
             <a href="/starter-checklist">Free Checklist</a>
             <a href="/about">About</a>
@@ -51,6 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
           <div className="footer-links">
             <a href="/disclosure">Affiliate & health disclosure</a>
+            <a href="/starter-swap-list">Starter swaps</a>
             <a href="/starter-checklist">Free checklist</a>
           </div>
           <p className="fine-print">Educational content only. Not medical advice. Product links may be affiliate links, which means we may earn a commission if you buy through them at no extra cost to you.</p>

@@ -12,6 +12,7 @@ export default function DisclosurePage() {
       <h1>Affiliate & health disclosure</h1>
       <h2>Affiliate links</h2>
       <p>Some links on LessPlasticish may be affiliate links. If you buy through those links, LessPlasticish may earn a commission at no extra cost to you.</p>
+      <p>As an Amazon Associate, LessPlasticish earns from qualifying purchases.</p>
       <p>Affiliate relationships do not remove the need for product scrutiny. Our goal is to recommend products that fit the swap being explained and make sense for real household routines.</p>
       <h2>Educational content only</h2>
       <p>LessPlasticish provides educational content and product research only. We do not provide medical advice, diagnosis, or treatment recommendations.</p>

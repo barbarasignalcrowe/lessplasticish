@@ -5,6 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     '',
     '/start-here-after-the-plastic-detox',
+    '/starter-swap-list',
     '/water-filter-swaps-plastic-bottle-waste',
     '/starter-checklist',
     '/about',
