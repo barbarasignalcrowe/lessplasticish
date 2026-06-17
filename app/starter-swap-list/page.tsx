@@ -80,7 +80,7 @@ export default function StarterSwapListPage() {
       <div className="disclosure">As an Amazon Associate, LessPlasticish earns from qualifying purchases. Some links on this page are affiliate links, which means we may earn a commission if you buy through them at no extra cost to you. Educational content only; not medical advice.</div>
 
       <p>This list is intentionally small. The point is to make the first few swaps obvious: food storage, water habits, cleaning refills, dish tools, and worn kitchen basics.</p>
-      <div className="callout">Barbara rule: buy only what replaces a routine you already repeat. If it sits in a cabinet unused, it was not a swap — it was clutter.</div>
+      <div className="callout">Simple rule: buy only what replaces a routine you already repeat. If it sits in a cabinet unused, it was not a swap — it was clutter.</div>
 
       <h2>Best first swaps to consider</h2>
       <div className="cards" style={{gridTemplateColumns: '1fr'}}>
@@ -117,8 +117,8 @@ export default function StarterSwapListPage() {
       </div>
 
       <h2 id="cookware-note">Cookware note</h2>
-      <p>Cookware can become its own rabbit hole. For LessPlasticish, the better article is not “throw everything out.” It is: replace scratched, worn, or disliked pieces first, then consider stainless steel or cast iron if they fit how you actually cook.</p>
-      <p>We will build a separate cookware guide before publishing cookware affiliate links. That page needs care instructions, use-case notes, and careful language around “non-toxic” claims.</p>
+      <p>Cookware can become its own rabbit hole, so it is not the first LessPlasticish starter move unless your current pans are scratched, flaking, or already due for replacement.</p>
+      <p>If you are ready to replace a piece, start with one everyday pan you will actually use. Stainless steel and cast iron are practical options for many kitchens, but they come with a learning curve and basic care requirements.</p>
 
       <h2>Keep this calm</h2>
       <p>The best low-plastic home is not the one with the most aesthetic products. It is the one where better defaults become boring and repeatable.</p>
