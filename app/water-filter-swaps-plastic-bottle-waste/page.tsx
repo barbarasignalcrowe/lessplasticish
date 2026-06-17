@@ -89,9 +89,9 @@ const amazonWaterPicks = [
 ];
 
 const affiliateShortlist = [
-  ['Direct-brand programs', 'Aquasana, Epic Water Filters, Clearly Filtered, Waterdrop, SpringWell, Home Master, and LifeStraw are better evaluated after LessPlasticish has more traffic and social proof. Amazon starter links let the guide monetize while we build that proof.'],
-  ['Higher-ticket filters', 'Countertop RO, under-sink RO, and whole-home systems need deeper comparison pages before we recommend them directly.'],
-  ['Portable and travel filters', 'Good supporting category later, especially for travel bottles, emergency kits, and rental-friendly routines.'],
+  ['Pitcher and dispenser filters', 'Best when you want the easiest first step, rent your home, or need something that does not require tools or plumbing changes.'],
+  ['Countertop and under-sink filters', 'Best when bottled water is a regular habit and you want a higher-capacity setup for everyday drinking water.'],
+  ['Whole-home and specialty systems', 'Best saved for specific water goals, homeownership decisions, or confirmed issues from a water report or test.'],
 ];
 
 const faqs = [
@@ -152,14 +152,14 @@ export default function WaterGuidePage() {
         ))}
       </div>
 
-      <h2>What LessPlasticish checks before stronger recommendations</h2>
-      <p>This page is a buyer guide first, not a random top-10 list. Before a product earns stronger language, its claims, replacement filter costs, installation requirements, and return policy need to be checked.</p>
+      <h2>What to check before choosing a filter</h2>
+      <p>A good water-filter choice should match your actual water goal, your kitchen, and the amount of maintenance you will realistically keep up with.</p>
       <ul>
         {productRules.map((rule) => <li key={rule}>{rule}</li>)}
       </ul>
 
-      <h2>Brands and product lanes to compare next</h2>
-      <p>These are research candidates, not final recommendations yet. They fit the LessPlasticish water path better than low-ticket one-off swaps, but each one still needs product-claim, filter-cost, and return-policy review before it earns a recommendation.</p>
+      <h2>Which filter lane fits your home?</h2>
+      <p>Use these lanes to narrow the search before you compare individual products.</p>
       <div className="cards" style={{gridTemplateColumns: '1fr'}}>
         {affiliateShortlist.map(([brand, note]) => (
           <article className="card" key={brand}>

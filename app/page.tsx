@@ -83,7 +83,7 @@ export default function Home() {
       <section className="section-tight">
         <div className="container split">
           <div>
-            <p className="eyebrow">First money guide</p>
+            <p className="eyebrow">Popular first swap</p>
             <h2>Choose a better water setup.</h2>
             <p className="body-large">If your home still depends on bottled water, this is one of the strongest places to start. A better water setup can reduce plastic bottle waste, simplify your routine, and create a practical first high-impact swap.</p>
             <div className="actions"><a className="button secondary" href="/water-filter-swaps-plastic-bottle-waste">Read the water guide</a></div>
